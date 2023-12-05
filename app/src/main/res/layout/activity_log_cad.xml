@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LogCad">
+
+    <TextView
+        android:id="@+id/txtbeeuzer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/berkshire_swash"
+        android:hint="@string/Beeuzser"
+        android:text="Beeüzer"
+        android:textColor="#F4EEEE"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:textSize="42sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="254dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/roxo2"
+        android:hint="@string/Login"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.474" />
+
+    <Button
+        android:id="@+id/btnCad"
+        android:layout_width="254dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/Cadastro"
+        android:onClick="Cadastro"
+        android:shadowColor="#000000"
+        android:textColor="@color/roxoClaro"
+        android:textColorHint="#9F00FF"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.576"
+        app:rippleColor="#FFFFFF" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Beeüzer</string>
+    <string name="Senha">Senha</string>
+    <string name="EMail">E-Mail</string>
+    <string name="Nome">Nome</string>
+    //nem o LOGIN ou o cadastroso possuirem mais a necessidade de ConfSenha//
+    <string name="ConfSenha">Confirmar Senha</string>
+
+    <string name="Login">Login</string>
+    <string name="Cadastro">Cadastre-se</string>
+    <string name="Beeuzser">Beeüzer</string>
+    <string name="Cadastrar">Cadastrar</string>
+    <string name="Entrar">Entrar</string>
+    <string name="ManterConectado">Manter Conectado</string>
+    <string name="Comprar">Comprar</string>
+    <string name="Por">Por:</string>
+    <string name="Preco">R$60</string>
+    <string name="CaixaCamisa">Caixa de Camisetas</string>
+    <string name="CaixaCalca">Caixa de Calça</string>
+    <string name="CaixaDoacao">Caixa de Doação</string>
+    <string name="Texto1">A caixa cotem 4 camisetas de diversas cores</string>
+    <string name="Texto2">A caixa cotem 2 calças jeans de diversas cores </string>
+    <string name="texto3">A caixa contem 1 calça e 2 camisetas  de cores diversas </string>
+    <string name="selecionar">Selecionar </string>
+    <string name="status">Status de Entrega</string>
+    <string name="coloridas">G/ Masculino/ Coloridas</string>
+    <string name="um">1</string>
+    <string name="tres">3</string>
+    <string name="doacao">ONG Raio de Luz/ Crianças</string>
+    <string name="preco2">R$ 180,00</string>
+    <string name="preco3">R$ 60,00</string>
+    <string name="entregue">Entregue</string>
+    <string name="MontandoPedido">Montando Pedido</string>
+    <string name="Quantidade">+  1  -</string>
+    <string name="frete">Frete:  R$ 15,00</string>
+    <string name="Carrinho">Carrinho</string>
+    <string name="carrinhoCaixaCamisa">Caixa de Camisetas:  R$ 60,00</string>
+    <string name="Total">Total:  R$ 75,00</string>
+    <string name="NumCartao">Número do cartão</string>
+    <string name="Validade">Validade</string>
+    <string name="Cvv">CVV</string>
+    <string name="Card">Cartão de crédito ou débito</string>
+    <string name="finalizar">Finalizar Compra</string>
+    <string name="_11910392515">11910392515</string>
+</resources>
